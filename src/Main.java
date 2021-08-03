@@ -1,7 +1,23 @@
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
+        //object oriented
+        Car car=new Car(20,"Benz","red","Germany");
+        Car car2=new Car(20,"Benz","red","Germany");
+            System.out.println(car.city);
+            System.out.println(car2.city);
+
+        //
+
+
+
+
+
+
+
+
+
+
+
 //        ArrayList<Integer> list = new ArrayList<>();
 //        for (int i = 0; i < 20; i++) {
 //            list.add(i);
@@ -11,18 +27,18 @@ public class Main {
 //            System.out.println(a);
 //        }
 
-        int s;
-        s = sum(20, 10);
-        System.out.println("sum : " + s);
-        /////////////////////////////////////
-        int m;
-        m = mull();
-        System.out.println("mull : " + m);
-        /////////////////////////////////////
-        div(5,2);
-
-        //////////////////////////////////////
-        line();
+//        int s;
+//        s = sum(20, 10);
+//        System.out.println("sum : " + s);
+//        /////////////////////////////////////
+//        int m;
+//        m = mull();
+//        System.out.println("mull : " + m);
+//        /////////////////////////////////////
+//        div(5,2);
+//
+//        //////////////////////////////////////
+//        line();
     }
 
     //  method  input and output
@@ -49,10 +65,7 @@ public class Main {
     public static void line() {
         System.out.println("-----------------------------------------------------");
         div(20, 5);
-        div(22, 5);
-        div(25, 5);
-        div(39, 5);
-        div(7, 5);
+
     }
 
 
